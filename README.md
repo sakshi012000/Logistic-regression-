@@ -14,7 +14,7 @@ Given data on time spent studying and exam scores. :doc:`linear_regression` and 
   - **Linear Regression** could help us predict the student's test score on a scale of 0 - 100. Linear regression predictions are continuous (numbers in a range).
 
   - **Logistic Regression** could help use predict whether the student passed or failed. Logistic regression predictions are discrete (only specific values or categories are allowed). We can also view probability scores underlying the model's classifications.
-  ![](C:\Users\hp\Desktop\LR\Logistic-regression-\linearvslogistic.jpeg)
+  ![Image1](https://github.com/sakshi012000/Logistic-regression-/blob/master/linearvslogistic.jpeg?raw=true)
 
 Types of logistic regression
 ----------------------------
