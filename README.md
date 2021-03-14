@@ -19,8 +19,8 @@ If we have given data on time spent studying and exam scores. Linear regression 
 Types of logistic regression
 ----------------------------
 
-*Binary (eg. Tumor Malignant or Benign).
-*Multi-linear functions failsClass (eg. Cats, dogs or Sheep's)
+- **Binary** (eg. Tumor Malignant or Benign).
+- **Multi-linear functions** (eg. Cats, dogs or Sheep's)
 
 We can call a Logistic Regression a Linear Regression model but the Logistic Regression uses a more complex cost function, this cost function can be defined as the ‘Sigmoid function’ or also known as the ‘logistic function’ instead of a linear function.
 
@@ -45,3 +45,31 @@ But we need range between -[infinity] to +[infinity], then take logarithm of the
 
 Logistic Regression in Machine Learning.
 The above equation is the final equation for Logistic Regression.
+
+##Decision Boundary
+We expect our classifier to give us a set of outputs or classes based on probability when we pass the inputs through a prediction function and returns a probability score between 0 and 1.
+For Example, We have 2 classes, let’s take them like cats and dogs(1 — dog , 0 — cats). We basically decide with a threshold value above which we classify values into Class 1 and of the value goes below the threshold then we classify it in Class 2.
+![Image4](https://github.com/sakshi012000/Logistic-regression-/blob/master/image6.png?raw=true)
+
+As shown in the above graph we have chosen the threshold as 0.5, if the prediction function returned a value of 0.7 then we would classify this observation as Class 1(DOG). If our prediction returned a value of 0.2 then we would classify the observation as Class 2(CAT).
+
+##Cost Function
+
+The cost function represents optimization objective i.e. we create a cost function and minimize it so that we can develop an accurate model with minimum error.
+For logistic regression, the Cost function is defined as:
+![Image7](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%209.png?raw=true)
+
+##Gradient Descent
+
+Now the question arises, how do we reduce the cost value. Well, this can be done by using Gradient Descent. The main goal of Gradient descent is to minimize the cost value. i.e. min J(θ).
+Now to minimize our cost function we need to run the gradient descent function on each parameter i.e.
+![Image10](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%2010.png?raw=true)
+![Image11](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%2011.jpeg?raw=true)
+
+Gradient descent has an analogy in which we have to imagine ourselves at the top of a mountain valley and left stranded and blindfolded, our objective is to reach the bottom of the hill. Feeling the slope of the terrain around you is what everyone would do. Well, this action is analogous to calculating the gradient descent, and taking a step is analogous to one iteration of the update to the parameters.
+
+![Image12](https://github.com/sakshi012000/Logistic-regression-/blob/master/image12.png?raw=true)
+
+##Conclusion
+This is a basic idea of what Logistic Regression is in Machine Learning.
+Thanks for Reading.
