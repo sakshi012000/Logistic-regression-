@@ -63,6 +63,7 @@ For logistic regression, the Cost function is defined as:
 
 Now the question arises, how do we reduce the cost value. Well, this can be done by using Gradient Descent. The main goal of Gradient descent is to minimize the cost value. i.e. min J(θ).
 Now to minimize our cost function we need to run the gradient descent function on each parameter i.e.
+
 ![Image10](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%2010.png?raw=true)
 ![Image11](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%2011.jpeg?raw=true)
 
@@ -70,6 +71,7 @@ Gradient descent has an analogy in which we have to imagine ourselves at the top
 
 ![Image12](https://github.com/sakshi012000/Logistic-regression-/blob/master/image12.png?raw=true)
 
-##Conclusion
+## Conclusion
 This is a basic idea of what Logistic Regression is in Machine Learning.
+
 Thanks for Reading.
