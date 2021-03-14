@@ -46,7 +46,7 @@ But we need range between -[infinity] to +[infinity], then take logarithm of the
 Logistic Regression in Machine Learning.
 The above equation is the final equation for Logistic Regression.
 
-##Decision Boundary
+## Decision Boundary
 We expect our classifier to give us a set of outputs or classes based on probability when we pass the inputs through a prediction function and returns a probability score between 0 and 1.
 For Example, We have 2 classes, let’s take them like cats and dogs(1 — dog , 0 — cats). We basically decide with a threshold value above which we classify values into Class 1 and of the value goes below the threshold then we classify it in Class 2.
 ![Image4](https://github.com/sakshi012000/Logistic-regression-/blob/master/image6.png?raw=true)
