@@ -27,3 +27,17 @@ We can call a Logistic Regression a Linear Regression model but the Logistic Reg
 ## What is the Sigmoid Function?
 In order to map predicted values to probabilities, we use the Sigmoid function. The function maps any real value into another value between 0 and 1. In machine learning, we use sigmoid to map predictions to probabilities.
 ![Image2](https://github.com/sakshi012000/Logistic-regression-/blob/master/image2.png?raw=true)
+
+## Logistic Regression Equation:
+The Logistic regression equation can be obtained from the Linear Regression equation. The mathematical steps to get Logistic Regression equations are given below:
+
+We know the equation of the straight line can be written as:
+![Image3](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%203.png?raw=true)
+Logistic Regression in Machine Learning
+In Logistic Regression y can be between 0 and 1 only, so for this let's divide the above equation by (1-y):
+![Image3](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%204.png?raw=true)
+Logistic Regression in Machine Learning
+But we need range between -[infinity] to +[infinity], then take logarithm of the equation it will become:
+![Image3](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%205.png?raw=true)
+Logistic Regression in Machine Learning
+The above equation is the final equation for Logistic Regression.
