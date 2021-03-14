@@ -53,13 +53,13 @@ For Example, We have 2 classes, let’s take them like cats and dogs(1 — dog ,
 
 As shown in the above graph we have chosen the threshold as 0.5, if the prediction function returned a value of 0.7 then we would classify this observation as Class 1(DOG). If our prediction returned a value of 0.2 then we would classify the observation as Class 2(CAT).
 
-##Cost Function
+## Cost Function
 
 The cost function represents optimization objective i.e. we create a cost function and minimize it so that we can develop an accurate model with minimum error.
 For logistic regression, the Cost function is defined as:
 ![Image7](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%209.png?raw=true)
 
-##Gradient Descent
+## Gradient Descent
 
 Now the question arises, how do we reduce the cost value. Well, this can be done by using Gradient Descent. The main goal of Gradient descent is to minimize the cost value. i.e. min J(θ).
 Now to minimize our cost function we need to run the gradient descent function on each parameter i.e.
