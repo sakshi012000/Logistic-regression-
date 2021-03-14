@@ -9,7 +9,7 @@ Logistic Regression is used for a different class of problems known as classific
 Comparison to linear regression
 -------------------------------
 
-Given data on time spent studying and exam scores. :doc:`linear_regression` and logistic regression can predict different things:
+If we have given data on time spent studying and exam scores. Linear regression and Logistic regression can predict different things:
 
   - **Linear Regression** could help us predict the student's test score on a scale of 0 - 100. Linear regression predictions are continuous (numbers in a range).
 
@@ -19,8 +19,11 @@ Given data on time spent studying and exam scores. :doc:`linear_regression` and 
 Types of logistic regression
 ----------------------------
 
-  - Binary (Pass/Fail)
-  - Multi (Cats, Dogs, Sheep)
-  - Ordinal (Low, Medium, High)
-  Binary logistic regression
-  ==========================
+Binary (eg. Tumor Malignant or Benign)
+Multi-linear functions failsClass (eg. Cats, dogs or Sheep's)
+
+We can call a Logistic Regression a Linear Regression model but the Logistic Regression uses a more complex cost function, this cost function can be defined as the ‘Sigmoid function’ or also known as the ‘logistic function’ instead of a linear function.
+
+## What is the Sigmoid Function?
+In order to map predicted values to probabilities, we use the Sigmoid function. The function maps any real value into another value between 0 and 1. In machine learning, we use sigmoid to map predictions to probabilities.
+![Image2](https://github.com/sakshi012000/Logistic-regression-/blob/master/image2.png?raw=true)
