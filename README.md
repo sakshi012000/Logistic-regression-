@@ -19,8 +19,8 @@ If we have given data on time spent studying and exam scores. Linear regression 
 Types of logistic regression
 ----------------------------
 
-Binary (eg. Tumor Malignant or Benign)
-Multi-linear functions failsClass (eg. Cats, dogs or Sheep's)
+*Binary (eg. Tumor Malignant or Benign).
+*Multi-linear functions failsClass (eg. Cats, dogs or Sheep's)
 
 We can call a Logistic Regression a Linear Regression model but the Logistic Regression uses a more complex cost function, this cost function can be defined as the ‘Sigmoid function’ or also known as the ‘logistic function’ instead of a linear function.
 
@@ -32,12 +32,16 @@ In order to map predicted values to probabilities, we use the Sigmoid function. 
 The Logistic regression equation can be obtained from the Linear Regression equation. The mathematical steps to get Logistic Regression equations are given below:
 
 We know the equation of the straight line can be written as:
+
 ![Image3](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%203.png?raw=true)
-Logistic Regression in Machine Learning
+
 In Logistic Regression y can be between 0 and 1 only, so for this let's divide the above equation by (1-y):
+
 ![Image3](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%204.png?raw=true)
-Logistic Regression in Machine Learning
+
 But we need range between -[infinity] to +[infinity], then take logarithm of the equation it will become:
+
 ![Image3](https://github.com/sakshi012000/Logistic-regression-/blob/master/image%205.png?raw=true)
-Logistic Regression in Machine Learning
+
+Logistic Regression in Machine Learning.
 The above equation is the final equation for Logistic Regression.
